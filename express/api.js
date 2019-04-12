@@ -6,10 +6,6 @@ var cors = require('cors');
 
 app.use(cors());
 
-app.get('/', function (req, res) {
-    res.send('Hello World!');
-});
-
 app.get('/api/items', function (req, res) {
     var query = req.query.q;
 
