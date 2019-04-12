@@ -1,0 +1,29 @@
+.breadcrumbBlock {
+    padding-top:rem(16px);
+    padding-bottom:rem(16px);
+    .breadcrumb {
+        background-color:transparent;
+        padding:0px;
+        margin-bottom: 0px;
+        .breadcrumb-item {
+            line-height: 1;
+            font-size:rem(14px);
+            color:#999999;
+            &:first-child {
+                &::before {
+                    display:none;
+                }
+            }
+            &.active {
+                font-weight: bold;
+                &::before {
+                    font-weight: normal;
+                }
+            }
+            &::before {
+                content:">";
+                color:#999999;
+            }
+        }
+    }
+}

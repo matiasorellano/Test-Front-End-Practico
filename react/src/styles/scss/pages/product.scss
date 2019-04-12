@@ -1,0 +1,61 @@
+.productPage {
+    margin-top:rem(32px);
+    .container {
+        background-color:#fff;
+        border-radius:rem(4px) rem(4px) 0px 0px;
+        padding-top:rem(32px);
+        .imgBlock {
+            text-align: center;
+            margin-bottom:rem(30px);
+            img {
+                display:inline-block;
+                max-width: 100%;
+            }
+        }
+        .infoRight {
+            .conditions {
+                font-size:rem(14px);
+                color:#333;
+                line-height: 1;
+                margin-bottom: rem(16px);
+            }
+            h1 {
+                font-size:rem(24px);
+                color:#333;
+                line-height: 1.2;
+                margin-bottom: rem(32px);
+                font-weight: bold;
+            }
+            .price {
+                font-size:rem(46px);
+            }
+            .addToCart {
+                a {
+                    width: 100%;
+                    display:inline-block;
+                    max-width: rem(250px);
+                    background-color:#3483fa;
+                }
+            }
+        }
+        .descriptionBlock {
+            padding-left:rem(32px);
+            word-wrap: break-word;
+            h3 {
+                color:#333333;
+                font-size:rem(28px);
+                margin-bottom:rem(32px);
+            }
+            .text {
+                color:#999999;
+                font-size:rem(16px);
+                padding-bottom:rem(32px);
+                p {
+                    color:#999999;
+                    font-size:rem(16px);
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
